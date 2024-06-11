@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#App {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+h1 {
+  padding: 2rem 0;
+  color: #000;
+  opacity: 0.6;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wrapper button {
+  width: 12rem;
+  height: 3rem;
+  background: #16a34a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.wrapper button:hover {
+  background: #0a8939;
+}
+
+.wrapper p {
+  width: 10rem;
+  height: 3rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  opacity: 0.6;
+  box-shadow: -4px -4px 5px rgba(255, 255, 255, 1),
+    inset 4px 4px 5px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 10px rgba(255, 255, 255, 1), 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
