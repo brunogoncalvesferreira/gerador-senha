@@ -1,32 +1,12 @@
-```javascript
-// Buscando o botão
-const buttonGeneratorPassword = document.querySelector("button")
+<!--- # "Can be a image or a gift from the project pages" -->
 
-// Criando um evento de click para o botão
-buttonGeneratorPassword.addEventListener("click", handleGeneratorPassword)
+# Gerador de senhas
 
-// Função que vai processar nosso código
-function handleGeneratorPassword() {
-  // Váriavel com os caracteres
-  const chars =
-    "1234567890qwertyuiopasdfghjklçzxcvbnmQWERTYUIOPASDFGHJKLÇZXCVBNM@#$%&*"
+Projeto criado na mentoria da Codi Academy, para praticar com os alunos HTML, CSS é Javascript.
 
-  // Variável com o tamanho da senha
-  const passwordLength = 8
+## Tech Stack
 
-  // Variável onde vamos armazenar a senha
-  let password = ""
+<!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
 
-  // Loop para gerar valores aleatórios
-  for (let i = 0; i < passwordLength; i++) {
-    // Variável que gera números aleatórios
-    let passwordRandom = Math.floor(Math.random() * chars.length)
+[![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
 
-    // Armazenando os caracteres formando a senha
-    password += chars.substring(passwordRandom, passwordRandom + 1)
-  }
-
-  // Usando a dom para buscar a tag p é mostrar a senha gerada em tela
-  document.querySelector("p").innerHTML = password
-}
-```
